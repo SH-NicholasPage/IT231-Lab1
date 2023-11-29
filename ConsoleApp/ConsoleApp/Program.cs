@@ -4,7 +4,8 @@
     {
         public static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            int x = Int32.Parse(Console.ReadLine()!);
+            int y = Int32.Parse(Console.ReadLine()!);
         }
     }
 }
