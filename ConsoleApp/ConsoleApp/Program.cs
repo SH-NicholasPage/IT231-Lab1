@@ -9,7 +9,9 @@ class Program
 
     public static void DoMath(double x, double y)
     {
-        double result = x + y;
-        Console.WriteLine(result);
+        double resultAdd = x + y;
+        double resultMult = x * y;
+        Console.WriteLine(resultAdd);
+        Console.WriteLine(resultMult);
     }
 }
